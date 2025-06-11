@@ -4,6 +4,8 @@
 
 <br/>
 
+![Homepage Screenshot](public/images/screenshot.png)
+
 
 <br/>
 
@@ -13,7 +15,7 @@
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
 - **Icons**: [Heroicons](https://heroicons.com/), [Lucide-react](https://lucide.dev/)
-- **Font**: Custom Google Fonts (Playfair Display, Inter)
+
 
 <br/>
 
