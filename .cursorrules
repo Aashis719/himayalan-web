@@ -1,0 +1,33 @@
+himalayan-living
+│
+├── /app
+│   ├── /components
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   ├── HeroSection.js
+│   │   ├── ProductGrid.js
+│   │   ├── ProductCard.js
+│   │   ├── StorySection.js
+│   │   ├── Lookbook.js
+│   │   ├── ContactForm.js
+│   │   └── SectionHeading.js
+│   │
+│   ├── /[pages]
+│   │   ├── page.js         ← Landing Page
+│   │   ├── products
+│   │   │   └── page.js      ← Product Showcase
+│   │   ├── story
+│   │   │   └── page.js       ← Brand Story Page
+│   │   ├── lookbook
+│   │   │   └── page.js       ← Gallery Page
+│   │   └── contact
+│   │       └── page.js       ← Contact Page
+│
+├── /public
+│   ├── /images                ← Lifestyle/product assets
+│
+├── /styles
+│   └── globals.css            ← Global styling overrides (optional)
+│
+├── tailwind.config.js
+└── next.config.js
