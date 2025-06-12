@@ -8,17 +8,22 @@ const HeroSection = () => {
     <section className="relative h-screen max-w-full overflow-x-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
-        <video
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="object-cover w-full h-full"
-        >
-          <source src="/videos/vid1.mp4" type="video/mp4" />
-        </video>
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
-      </div>
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="object-cover w-full h-full"
+  >
+    <source
+      src="https://res.cloudinary.com/doroz2ep1/video/upload/q_auto,f_auto/mrfdksypadqzgipomp3b.mp4"
+      type="video/mp4"
+    />
+    Your browser does not support the video tag.
+  </video>
+  <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-black/60" />
+</div>
+
 
       {/* Content */}
       <div className="relative z-10 h-full flex items-center">
@@ -42,7 +47,7 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-5xl md:text-7xl  text-center md:text-left font-display font-bold text-white mb-8 leading-tight"
+              className="text-5xl md:text-7xl text-center md:text-left font-display font-bold text-white mb-8 leading-tight"
             >
               Crafted in Heart of the Himalayas
             </motion.h1>

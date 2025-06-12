@@ -112,17 +112,17 @@ const Lookbook = () => {
 
   return (
     <>
-      <section className="py-24 ">
+      <section className="py-24 pt-4 ">
         <div className="container mx-auto px-2 sm:px-6 lg:px-8">
           {/* Section Header */}
-          <div className="max-w-3xl mx-auto text-center mb-16">
+          <div className="max-w-3xl mx-auto text-center mb-16 hidden ">
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               className="text-4xl lg:text-5xl font-display text-white mb-6 "
             >
-              Lookbook
+              Our Gallery
             </motion.h2>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
