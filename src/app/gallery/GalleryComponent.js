@@ -5,7 +5,6 @@ import { motion } from 'framer-motion';
 
 export default function LookbookPage() {
   // Example lookbook images
-// This would typically come from an API or database
   const lookbookImages = [
     {
       src: '/images/lookbook/image1.webp',
