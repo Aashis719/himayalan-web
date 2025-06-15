@@ -1,5 +1,5 @@
 export const products = [
-  // Example products data
+
   {
     id: 1,
     name: "Hand-Woven Shawl",
