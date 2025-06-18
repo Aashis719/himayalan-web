@@ -3,8 +3,7 @@ import ProductGrid from '../components/ProductGrid';
 import SectionHeading from '../components/SectionHeading';
 import { motion } from 'framer-motion';
 export default function ProductsPage() {
-  // Example products data
-// This would typically come from an API or database
+ 
   const products = [
     {
       id: 1,
