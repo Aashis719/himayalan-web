@@ -4,7 +4,7 @@ export const homeMetadata = {
   description: 'Discover handcrafted, ethically sourced goods from the heart of the Himalayas.',
 };
 
-
+// Metadata for other pages
 
 export const productsMetadata = {
   title: 'Our Products - Himalayan Living',
