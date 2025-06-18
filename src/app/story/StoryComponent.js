@@ -4,7 +4,7 @@ import SectionHeading from '../components/SectionHeading';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 import { FaLeaf, FaHandshake, FaMountain, FaStar } from 'react-icons/fa';
-// import { storyMetadata } from '@/app/metadata';
+
 export default function StoryPage() {
   return (
     <div className="flex flex-col items-stretch overflow-x-hidden">
