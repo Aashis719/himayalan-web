@@ -35,7 +35,7 @@
 
 ## 🎯 Design Philosophy
 
-The site reflects:
+The site reflects :
 - **Minimalism meets tradition**
 - **Warm earthy tones and mountain motifs**
 - A feel of **slow living, calmness, and handcrafted luxury **
