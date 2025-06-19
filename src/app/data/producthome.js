@@ -1,6 +1,5 @@
 export const productshome = [
-  // Example products data
-  // Uncomment and modify the following products as needed
+ 
     {
       id: 1,
       name: "Hand-Woven Shawl",
