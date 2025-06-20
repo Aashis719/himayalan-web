@@ -4,7 +4,7 @@ import SectionHeading from '../components/SectionHeading';
 import { motion } from 'framer-motion';
 
 export default function LookbookPage() {
-  // Example lookbook images
+  
   const lookbookImages = [
     {
       src: '/images/lookbook/image1.webp',
