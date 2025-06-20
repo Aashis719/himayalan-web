@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Filter, ChevronDown } from 'lucide-react';
 import ProductCard from './ProductCard';
 import { productshome as initialProductsData } from '../data/producthome';
-
+// ProductGridhome component to display a grid of products with filtering and sorting options
 const ProductGridhome = ({ initialProducts = initialProductsData }) => {
   const [activeFilter, setActiveFilter] = useState('all');
   const [sortBy, setSortBy] = useState('featured');
