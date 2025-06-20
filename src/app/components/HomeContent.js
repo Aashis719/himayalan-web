@@ -5,8 +5,7 @@ import StorySection from '@/app/components/StorySection';
 import Lookbookhome from '@/app/components/Lookbookhome';
 import SectionHeading from '@/app/components/SectionHeading';
 import { motion } from 'framer-motion';
-// src/app/page.js
-// This file defines the metadata for the home page and imports the HomeContent component to display the
+
 
 
 export default function Home() {
