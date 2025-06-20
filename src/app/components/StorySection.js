@@ -2,7 +2,7 @@
 import { useRef } from 'react';
 import Image from 'next/image';
 import { motion, useScroll, useTransform } from 'framer-motion';
-
+// Importing necessary libraries and components
 const StorySection = () => {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
