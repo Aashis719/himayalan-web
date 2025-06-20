@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-
+// ProductCard component to display individual product details
 const ProductCard = ({ product }) => {
   const [isHovered, setIsHovered] = useState(false);
 
