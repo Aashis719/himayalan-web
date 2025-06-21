@@ -1,5 +1,5 @@
 export const products = [
-
+// This is a sample product list for the home page. You can replace it with your actual product data.
   {
     id: 1,
     name: "Hand-Woven Shawl",
