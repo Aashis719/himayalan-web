@@ -2,7 +2,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Instagram, Facebook, Twitter } from 'lucide-react';
-
+// footer section and social media icons with their links
 const Footer = () => {
   const footerSections = [
     {
