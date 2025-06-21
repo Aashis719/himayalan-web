@@ -6,7 +6,6 @@ import Image from 'next/image';
 const HeroSection = () => {
   return (
     <section className="relative h-screen max-w-full overflow-x-hidden">
-      {/* Background Video */}
       <div className="absolute inset-0 z-0">
   <video
     autoPlay
