@@ -6,7 +6,7 @@ const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',
 });
-// Import Playfair Display font
+
 const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',
