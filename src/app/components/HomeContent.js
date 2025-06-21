@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 
 
 export default function Home() {
-  // Example featured products
+  
   const featuredProducts = [
     {
       id: 1,
