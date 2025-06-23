@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Filter, ChevronDown } from 'lucide-react';
 import ProductCard from './ProductCard';
 import { products as initialProductsData } from '../data/products';
-
+// Sample data structure for products
 const ProductGrid = ({ initialProducts = initialProductsData }) => {
   const [activeFilter, setActiveFilter] = useState('all');
   const [sortBy, setSortBy] = useState('featured');
