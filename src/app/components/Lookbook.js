@@ -6,7 +6,7 @@ import { X, ZoomIn } from 'lucide-react';
 
 const Lookbook = () => {
   const [selectedImage, setSelectedImage] = useState(null);
-
+// Define the images with their properties
   const images = [
     {
       src: '/images/lookbook/image1.webp',
