@@ -8,7 +8,7 @@ const ProductGridhome = ({ initialProducts = initialProductsData }) => {
   const [activeFilter, setActiveFilter] = useState('all');
   const [sortBy, setSortBy] = useState('featured');
   const [isFilterMenuOpen, setIsFilterMenuOpen] = useState(false);
-
+// Define categories and sort options
   const categories = [
     { id: 'all', label: 'All Products', icon: 'grid' },
     { id: 'textiles', label: 'Textiles', icon: 'fabric' },
