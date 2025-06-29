@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-// SectionHeading component for displaying section titles with optional subtitles and decorative elements
+
 const SectionHeading = ({
   title,
   subtitle,
