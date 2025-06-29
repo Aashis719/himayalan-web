@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import Image from 'next/image';
-
+// Import your logo images
 const HeroSection = () => {
   return (
     <section className="relative h-screen max-w-full overflow-x-hidden">
