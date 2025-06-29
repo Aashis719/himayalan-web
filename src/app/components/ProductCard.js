@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import Link from 'next/link';
 const ProductCard = ({ product }) => {
   const [isHovered, setIsHovered] = useState(false);
-
+// Ensure product has required properties
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
