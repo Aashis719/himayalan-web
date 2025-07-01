@@ -5,7 +5,7 @@ import StorySection from '@/app/components/StorySection';
 import Lookbookhome from '@/app/components/Lookbookhome';
 import SectionHeading from '@/app/components/SectionHeading';
 import { motion } from 'framer-motion';
-
+// Importing necessary components for the home page
 export default function Home() {
   
   const featuredProducts = [
