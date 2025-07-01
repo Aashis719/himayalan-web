@@ -3,7 +3,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn } from 'lucide-react';
-
+// Importing icons from lucide-react for close and zoom functionality
 const Lookbookhome = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
