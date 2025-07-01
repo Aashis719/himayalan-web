@@ -1,5 +1,5 @@
 export const productshome = [
- //   Featured products for the homepage
+
     {
       id: 1,
       name: "Hand-Woven Shawl",
