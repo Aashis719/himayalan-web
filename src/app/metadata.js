@@ -3,7 +3,7 @@ export const homeMetadata = {
   title: 'Himalayan Living - Premium Lifestyle Brand',
   description: 'Discover handcrafted, ethically sourced goods from the heart of the Himalayas.',
 };
-
+//
 export const productsMetadata = {
   title: 'Our Products - Himalayan Living',
   description: 'Explore our exclusive range of handcrafted products from the Himalayas.',
