@@ -2,7 +2,7 @@
 import ContactForm from '../components/ContactForm';
 import SectionHeading from '../components/SectionHeading';
 import { MapPin, Phone, Mail, Clock } from 'lucide-react';
-// ContactPage component for displaying contact information and a contact form
+
 export default function ContactPage() {
   const contactInfo = [
     {
