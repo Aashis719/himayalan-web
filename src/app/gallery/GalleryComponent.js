@@ -2,7 +2,7 @@
 import Lookbook from '../components/Lookbook';
 import SectionHeading from '../components/SectionHeading';
 import { motion } from 'framer-motion';
-
+ 
 export default function LookbookPage() {
   
   const lookbookImages = [
