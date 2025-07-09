@@ -5,7 +5,7 @@ export const metadata = storyMetadata;
 const page = () => {
   return (
     <div>
-      <StoryComponent />
+      <StoryComponent /> 
     </div>
   )
 }
