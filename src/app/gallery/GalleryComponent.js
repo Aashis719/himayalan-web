@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
  
 export default function LookbookPage() {
   
-  const lookbookImages = [
+  const lookbookImages = [ 
     {
       src: '/images/lookbook/image1.webp',
       alt: 'Artisan weaving a traditional pattern',
