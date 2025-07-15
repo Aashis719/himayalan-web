@@ -10,7 +10,7 @@ const ProductGrid = ({ initialProducts = initialProductsData }) => {
   const [sortBy, setSortBy] = useState('featured');
   const [isFilterMenuOpen, setIsFilterMenuOpen] = useState(false);
   const dropdownRef = useRef(null);
-
+ 
   const categories = [
     { id: 'all', label: 'All Products', icon: 'grid' },
     { id: 'textiles', label: 'Textiles', icon: 'fabric' },
