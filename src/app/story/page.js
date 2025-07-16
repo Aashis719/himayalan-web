@@ -4,7 +4,7 @@ import { storyMetadata } from '@/app/metadata'
 export const metadata = storyMetadata;
 const page = () => {
   return (
-    <div>
+    <div> 
       <StoryComponent /> 
     </div>
   )
