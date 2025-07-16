@@ -6,7 +6,7 @@ import { Instagram, Facebook, Twitter } from 'lucide-react';
 const Footer = () => {
   const footerSections = [
     {
-      title: 'Shop',
+      title: 'Shop', 
       links: [
         { label: 'New Arrivals', href: '/products?category=new' },
         { label: 'Best Sellers', href: '/products?category=best-sellers' },
