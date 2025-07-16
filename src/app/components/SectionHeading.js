@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const SectionHeading = ({
   title,
-  subtitle,
+  subtitle, 
   align = 'center',
   size = 'default',
   theme = 'light',
