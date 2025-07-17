@@ -2,7 +2,7 @@
 import ProductGrid from '../components/ProductGrid';
 import SectionHeading from '../components/SectionHeading';
 import { motion } from 'framer-motion';
-export default function ProductsPage() {
+export default function ProductsPage() { 
 // This is a sample product list. You can replace it with your actual product data.
   const products = [
     {
