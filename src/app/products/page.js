@@ -5,7 +5,7 @@ export const metadata = productsMetadata;
 const page = () => {
   return (
     <div>
-      <ProductComponent />
+      <ProductComponent /> 
     </div>
   )
 }
