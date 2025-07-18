@@ -9,6 +9,6 @@ const page = () => {
       <ContactComponent />
     </div>
   )
-}
+} 
 
 export default page
