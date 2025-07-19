@@ -5,7 +5,7 @@ export const metadata = galleryMetadata;
 
 const page = () => {
   return (
-    <div>
+    <div> 
       <GalleryComponent />
     </div>
   )
