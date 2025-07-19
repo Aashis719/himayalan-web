@@ -7,7 +7,7 @@ const page = () => {
     <div>
       <ProductComponent /> 
     </div>
-  )
+  ) 
 }
 
 export default page
