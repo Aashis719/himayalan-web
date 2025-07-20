@@ -3,7 +3,7 @@ import ProductGrid from '../components/ProductGrid';
 import SectionHeading from '../components/SectionHeading';
 import { motion } from 'framer-motion';
 export default function ProductsPage() { 
-  const products = [ 
+  const products = [  
     {
       id: 1,
       name: 'Handwoven Pashmina Shawl',
