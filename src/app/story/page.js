@@ -7,7 +7,7 @@ const page = () => {
     <div>  
       <StoryComponent /> 
     </div>
-  )
+  ) 
 }
 
 export default page
