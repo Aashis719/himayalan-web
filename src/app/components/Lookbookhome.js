@@ -16,7 +16,7 @@ const Lookbookhome = () => {
    
       isTallMd: true,
       isWideMd: false,
-      isLargeLg: false,
+      isLargeLg: false, 
     },
     {
       src: '/images/lookbook/image2.jpeg',
