@@ -8,7 +8,7 @@ export const productsMetadata = {
   title: 'Our Products - Himalayan Living',
   description: 'Explore our exclusive range of handcrafted products from the Himalayas.',
 };
-export const storyMetadata = {
+export const storyMetadata = { 
   title: 'Our Story - Himalayan Living',
   description: 'Learn more about our journey and values.',
 };
