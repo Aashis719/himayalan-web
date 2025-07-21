@@ -11,7 +11,7 @@ export default function StoryPage() {
       {/* Hero Banner */}
       <section className="relative h-[60vh] md:h-[70vh] flex items-center justify-center bg-gradient-to-b from-gray-900 to-gray-800">
         {/* Background Image with Overlay */}
-        <div className="absolute inset-0">
+        <div className="absolute inset-0"> 
           <Image
             src="/images/story1.jpeg"
             alt="Himalayan mountains"
