@@ -33,7 +33,7 @@
 
 <br/>
 
-## 🎯 Design Philosophy
+## 🎯 Design Philosophy 
 
 The site reflects:
 - **Minimalism meets tradition**
