@@ -9,7 +9,7 @@ export const products = [
     tags: ["Handcrafted", "Premium"],
     description: "Luxuriously soft pashmina shawl hand-woven by skilled artisans in Nepal"
   },
-  {
+  { 
     id: 2, 
     name: "Tibetan Singing Bowl Set",
     category: "decor",
