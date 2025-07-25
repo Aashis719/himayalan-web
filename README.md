@@ -30,7 +30,7 @@
 - 📱 **Fully Responsive** and Mobile-first optimized
 - 🌗 **Dark Mode Gradient Text Handling**
 - ⚡ **Framer Motion Animations** on elements and page transitions
-
+ 
 <br/>
 
 ## 🎯 Design Philosophy 
