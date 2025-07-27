@@ -13,7 +13,7 @@ const Lookbookhome = () => {
       alt: 'Modern living room with Himalayan textiles',
       category: 'Living Spaces',
       description: 'Hand-woven throws and cushions in earthy tones',
-   
+    
       isTallMd: true,
       isWideMd: false,
       isLargeLg: false, 
