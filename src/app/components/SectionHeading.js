@@ -7,7 +7,7 @@ const SectionHeading = ({
   align = 'center',
   size = 'default',
   theme = 'light',
-  withAccent = true,
+  withAccent = true, 
 }) => {
   const alignmentClasses = {
     left: 'text-left',
