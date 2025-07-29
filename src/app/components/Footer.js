@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { Instagram, Facebook, Twitter } from 'lucide-react';
 // Importing social media icons from lucide-react   
 const Footer = () => {
-  const footerSections = [
+  const footerSections = [ 
     {
       title: 'Shop', 
       links: [
