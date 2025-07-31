@@ -5,7 +5,7 @@ export const metadata = contactMetadata;
 //
 const page = () => {
   return (
-    <div>
+    <div> 
       <ContactComponent />
     </div>
   )
