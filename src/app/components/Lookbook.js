@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, ZoomIn } from 'lucide-react';
  
-const Lookbook = () => {
+const Lookbook = () => { 
   const [selectedImage, setSelectedImage] = useState(null);
 // Define the images with their properties
   const images = [ 
