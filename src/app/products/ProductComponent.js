@@ -6,7 +6,7 @@ export default function ProductsPage() {
   const products = [  
     {
       id: 1,
-      name: 'Handwoven Pashmina Shawl', 
+      name: 'Handwoven Pashmina Shawl',  
       category: 'wear',
       price: 129,
       image: '/images/products/shawl.jpg',
