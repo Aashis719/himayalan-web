@@ -9,7 +9,7 @@ export default function ContactPage() {
       icon: <MapPin className="w-6 h-6" />,
       title: 'Visit Us',
       details: [
-        'Himalayan Living Studio', 
+        'Himalayan Living Studio',  
         'Thamel, Kathmandu',
         'Nepal',
       ],
