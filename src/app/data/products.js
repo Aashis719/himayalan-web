@@ -5,7 +5,7 @@ export const products = [
     category: "textiles",
     price: 189.99,
     image: "/images/lookbook/image3.jpeg",
-    hoverImage: "/images/products/pashmina-shawl-hover.jpg",
+    hoverImage: "/images/lookbook/image3.jpeg",
     tags: ["Handcrafted", "Premium"],
     description: "Luxuriously soft pashmina shawl hand-woven by skilled artisans in Nepal"
   },
@@ -15,7 +15,7 @@ export const products = [
     category: "decor",
     price: 129.99,
     image: "/images/lookbook/image2.jpeg",
-    hoverImage: "/images/products/singing-bowl-hover.jpg",
+    hoverImage: "/images/lookbook/image2.jpeg",
     tags: ["Meditation", "Traditional"],
     description: "Hand-hammered singing bowl with cushion and striker"
   },
@@ -26,7 +26,7 @@ export const products = [
     price: 79.99,
     originalPrice: 99.99,
     image: "/images/lookbook/image1.webp",
-    hoverImage: "/images/products/salt-lamp-hover.jpg",
+    hoverImage: "/images/lookbook/image1.webp",
     tags: ["Natural", "Wellness"],
     description: "Authentic Himalayan salt lamp with wooden base"
   },
@@ -45,8 +45,8 @@ export const products = [
     name: "Yak Wool Throw Blanket",
     category: "textiles",
     price: 159.99,
-    image: "/images/products/yak-blanket.jpg",
-    hoverImage: "/images/products/yak-blanket-hover.jpg",
+    image: "https://images.pexels.com/photos/1937336/pexels-photo-1937336.jpeg",
+    hoverImage: "https://images.pexels.com/photos/1937336/pexels-photo-1937336.jpeg",
     tags: ["Sustainable", "Luxury"],
     description: "Warm and sustainable yak wool blanket from Tibet"
   },
@@ -55,8 +55,8 @@ export const products = [
     name: "Mandala Wall Hanging",
     category: "decor",
     price: 89.99,
-    image: "/images/products/mandala-hanging.jpg",
-    hoverImage: "/images/products/mandala-hanging-hover.jpg",
+    image: "https://images.pexels.com/photos/7182081/pexels-photo-7182081.jpeg",
+    hoverImage: "https://images.pexels.com/photos/7182081/pexels-photo-7182081.jpeg",
     tags: ["Handmade", "Artistic"],
     description: "Hand-painted cotton mandala wall art"
   },
@@ -65,8 +65,8 @@ export const products = [
     name: "Tibetan Mala Beads",
     category: "accessories",
     price: 45.99,
-    image: "/images/products/mala-beads.jpg",
-    hoverImage: "/images/products/mala-beads-hover.jpg",
+    image: "https://images.pexels.com/photos/8718539/pexels-photo-8718539.jpeg",
+    hoverImage: "https://images.pexels.com/photos/8718539/pexels-photo-8718539.jpeg",
     tags: ["Spiritual", "Handcrafted"],
     description: "108 bead mala necklace with sandalwood and turquoise"
   },
@@ -75,8 +75,8 @@ export const products = [
     name: "Himalayan Tea Set",
     category: "gifts",
     price: 119.99,
-    image: "/images/products/tea-set.jpg",
-    hoverImage: "/images/products/tea-set-hover.jpg",
+    image: "https://images.pexels.com/photos/16576804/pexels-photo-16576804.jpeg",
+    hoverImage: "https://images.pexels.com/photos/16576804/pexels-photo-16576804.jpeg",
     tags: ["Traditional", "Gift"],
     description: "Traditional ceramic tea set with brass details"
   },
@@ -85,8 +85,8 @@ export const products = [
     name: "Handwoven Hemp Cushion Cover",
     category: "textiles",
     price: 39.99,
-    image: "/images/products/hemp-cushion.jpg",
-    hoverImage: "/images/products/hemp-cushion-hover.jpg",
+    image: "https://images.pexels.com/photos/8762876/pexels-photo-8762876.jpeg",
+    hoverImage: "",
     tags: ["Sustainable", "Handmade"],
     description: "Natural hemp cushion cover with traditional patterns"
   },
@@ -95,8 +95,8 @@ export const products = [
     name: "Brass Prayer Wheel",
     category: "decor",
     price: 149.99,
-    image: "/images/products/prayer-wheel.jpg",
-    hoverImage: "/images/products/prayer-wheel-hover.jpg",
+    image: "https://images.pexels.com/photos/5202289/pexels-photo-5202289.jpeg",
+    hoverImage: "https://images.pexels.com/photos/5202289/pexels-photo-5202289.jpeg",
     tags: ["Traditional", "Spiritual"],
     description: "Hand-carved brass prayer wheel with mantras"
   },
@@ -105,19 +105,9 @@ export const products = [
     name: "Himalayan Cedar Incense Set",
     category: "gifts",
     price: 29.99,
-    image: "/images/products/incense-set.jpg",
-    hoverImage: "/images/products/incense-set-hover.jpg",
+    image: "https://images.pexels.com/photos/6205907/pexels-photo-6205907.jpeg",
+    hoverImage: "https://images.pexels.com/photos/6205907/pexels-photo-6205907.jpeg",
     tags: ["Natural", "Aromatic"],
     description: "Natural cedar incense with ceramic holder"
-  },
-  {
-    id: 12,
-    name: "Felted Wool Table Runner",
-    category: "textiles",
-    price: 69.99,
-    image: "/images/products/table-runner.jpg",
-    hoverImage: "/images/products/table-runner-hover.jpg",
-    tags: ["Handmade", "Home"],
-    description: "Hand-felted wool table runner with traditional motifs"
   }
 ]; 
