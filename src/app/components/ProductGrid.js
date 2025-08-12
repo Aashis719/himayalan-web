@@ -4,13 +4,23 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Filter, ChevronDown } from 'lucide-react';
 import ProductCard from './ProductCard';
 import { products as initialProductsData } from '../data/products';
-// Sample data structure for products
+import { useSearchParams } from 'next/navigation';
+
 const ProductGrid = ({ initialProducts = initialProductsData }) => {
+  const searchParams = useSearchParams();
   const [activeFilter, setActiveFilter] = useState('all');
   const [sortBy, setSortBy] = useState('featured');
   const [isFilterMenuOpen, setIsFilterMenuOpen] = useState(false);
   const dropdownRef = useRef(null);  
- 
+
+  // Handle URL parameters
+  useEffect(() => {
+    const category = searchParams.get('category');
+    if (category) {
+      setActiveFilter(category.toLowerCase());
+    }
+  }, [searchParams]);
+
   const categories = [
     { id: 'all', label: 'All Products', icon: 'grid' },
     { id: 'textiles', label: 'Textiles', icon: 'fabric' },
@@ -61,6 +71,17 @@ const ProductGrid = ({ initialProducts = initialProductsData }) => {
     };
   }, []);
 
+  // Handle category change and update URL
+  const handleCategoryChange = (categoryId) => {
+    setActiveFilter(categoryId);
+    // Update URL without page refresh
+    if (categoryId === 'all') {
+      window.history.pushState({}, '', '/products');
+    } else {
+      window.history.pushState({}, '', `/products?category=${categoryId}`);
+    }
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-4 md:mb-12">
@@ -75,7 +96,7 @@ const ProductGrid = ({ initialProducts = initialProductsData }) => {
               {categories.map((category) => (
                 <button
                   key={category.id}
-                  onClick={() => setActiveFilter(category.id)}
+                  onClick={() => handleCategoryChange(category.id)}
                   className={`flex-1 min-w-[120px] px-6 py-3.5 rounded-xl text-sm font-medium transition-all duration-300 flex items-center justify-center gap-2 ${
                     activeFilter === category.id
                       ? 'bg-white text-black shadow-md transform -translate-y-1'

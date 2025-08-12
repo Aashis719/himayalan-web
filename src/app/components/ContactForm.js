@@ -1,7 +1,8 @@
 'use client';
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Send, Phone, Mail, MapPin } from 'lucide-react';
+import { Send } from 'lucide-react';
+
 const ContactForm = () => {
   const [formState, setFormState] = useState({
     name: '',
@@ -41,37 +42,16 @@ const ContactForm = () => {
     });
   };
 
-  const contactInfo = [
-    {
-      icon: Phone,
-      label: 'Phone',
-      value: '+977 1234 5678',
-      href: 'tel:+97712345678',
-    },
-    {
-      icon: Mail,
-      label: 'Email',
-      value: 'hello@himalayaniving.com',
-      href: 'mailto:hello@himalayaniving.com',
-    },
-    {
-      icon: MapPin,
-      label: 'Visit Us',
-      value: 'Thamel, Kathmandu, Nepal',
-      href: 'https://maps.google.com',
-    },
-  ];
-
   return (
     <div className="w-full">
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           <div>
             <label
               htmlFor="name"
-              className="block text-sm font-medium text-[#1a1a1a] mb-2"
+              className="block text-sm font-semibold text-white mb-3"
             >
-              Name
+              Full Name
             </label>
             <input
               type="text"
@@ -80,16 +60,16 @@ const ContactForm = () => {
               value={formState.name}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 text-black rounded-lg border border-[#e5e5e5] focus:outline-none focus:ring-2 focus:ring-[#4a4a4a] focus:border-transparent transition-all"
-              placeholder="Your name"
+              className="w-full px-6 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-white/50 transition-all duration-300 backdrop-blur-sm"
+              placeholder="Enter your full name"
             />
           </div>
           <div>
             <label
               htmlFor="email"
-              className="block text-sm font-medium text-[#1a1a1a] mb-2"
+              className="block text-sm font-semibold text-white mb-3"
             >
-              Email
+              Email Address
             </label>
             <input
               type="email"
@@ -98,7 +78,7 @@ const ContactForm = () => {
               value={formState.email}
               onChange={handleChange}
               required
-              className="w-full px-4 py-3 rounded-lg border border-[#e5e5e5] focus:outline-none focus:ring-2 focus:ring-[#4a4a4a] focus:border-transparent transition-all"
+              className="w-full px-6 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-white/50 transition-all duration-300 backdrop-blur-sm"
               placeholder="your@email.com"
             />
           </div>
@@ -107,7 +87,7 @@ const ContactForm = () => {
         <div>
           <label
             htmlFor="subject"
-            className="block text-sm font-medium text-[#1a1a1a] mb-2"
+            className="block text-sm font-semibold text-white mb-3"
           >
             Subject
           </label>
@@ -118,15 +98,15 @@ const ContactForm = () => {
             value={formState.subject}
             onChange={handleChange}
             required
-            className="w-full px-4 py-3 rounded-lg border border-[#e5e5e5] focus:outline-none focus:ring-2 focus:ring-[#4a4a4a] focus:border-transparent transition-all"
-            placeholder="How can we help?"
+            className="w-full px-6 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-white/50 transition-all duration-300 backdrop-blur-sm"
+            placeholder="What can we help you with?"
           />
         </div>
 
         <div>
           <label
             htmlFor="message"
-            className="block text-sm font-medium text-[#1a1a1a] mb-2"
+            className="block text-sm font-semibold text-white mb-3"
           >
             Message
           </label>
@@ -137,31 +117,32 @@ const ContactForm = () => {
             onChange={handleChange}
             required
             rows={6}
-            className="w-full px-4 py-3 rounded-lg border border-[#e5e5e5] focus:outline-none focus:ring-2 focus:ring-[#4a4a4a] focus:border-transparent transition-all resize-none"
-            placeholder="Your message..."
+            className="w-full px-6 py-4 bg-white/10 border border-white/20 rounded-xl text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-white/50 focus:border-white/50 transition-all duration-300 backdrop-blur-sm resize-none"
+            placeholder="Tell us more about your inquiry..."
           />
         </div>
 
         <motion.button
           type="submit"
           disabled={isSubmitting}
+          whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
-          className={`w-full py-4 px-6 rounded-lg flex items-center justify-center space-x-2 text-white font-medium transition-all ${
+          className={`w-full py-5 px-8 rounded-xl flex items-center justify-center space-x-3 text-lg font-semibold transition-all duration-300 ${
             isSubmitting
-              ? 'bg-[#808080] cursor-not-allowed'
-              : 'bg-[#1a1a1a] hover:bg-[#333333]'
+              ? 'bg-gray-600 cursor-not-allowed'
+              : 'bg-white text-black hover:bg-gray-100 hover:shadow-lg'
           }`}
         >
           {isSubmitting ? (
             <motion.div
               animate={{ rotate: 360 }}
               transition={{ duration: 1, repeat: Infinity, ease: 'linear' }}
-              className="w-5 h-5 border-2 border-white border-t-transparent rounded-full"
+              className="w-6 h-6 border-2 border-black border-t-transparent rounded-full"
             />
           ) : (
             <>
               <span>Send Message</span>
-              <Send size={18} />
+              <Send size={20} />
             </>
           )}
         </motion.button>
@@ -171,9 +152,12 @@ const ContactForm = () => {
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-center text-[#22c55e] mt-4 p-3 bg-[#f0fdf4] rounded-lg"
+            className="text-center text-white mt-6 p-4 bg-white/10 border border-white/20 rounded-xl backdrop-blur-sm"
           >
-            Thank you! We&apos;ll get back to you soon.
+            <div className="flex items-center justify-center space-x-2">
+              <div className="w-2 h-2 bg-white rounded-full animate-pulse"></div>
+              <span className="font-medium">Thank you! We&apos;ll get back to you soon.</span>
+            </div>
           </motion.div>
         )}
       </form>

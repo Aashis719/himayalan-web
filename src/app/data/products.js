@@ -82,7 +82,7 @@ export const products = [
   },
   {
     id: 9,
-    name: "Handwoven Hemp Cushion Cover",
+    name: "Handwoven Cushion Cover",
     category: "textiles",
     price: 39.99,
     image: "https://images.pexels.com/photos/8762876/pexels-photo-8762876.jpeg",
@@ -102,7 +102,7 @@ export const products = [
   },
   {
     id: 11,
-    name: "Himalayan Cedar Incense Set",
+    name: "Himalayan Incense Set",
     category: "gifts",
     price: 29.99,
     image: "https://images.pexels.com/photos/6205907/pexels-photo-6205907.jpeg",

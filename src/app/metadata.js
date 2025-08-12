@@ -22,3 +22,18 @@ export const contactMetadata = {
   title: 'Contact Us - Himalayan Living',
   description: 'Get in touch with us for inquiries, orders, and more.',
 };
+
+export const faqsMetadata = {
+  title: 'FAQs - Himalayan Living',
+  description: 'Find answers to commonly asked questions about our products and services.',
+};
+
+export const privacyMetadata = {
+  title: 'Privacy Policy - Himalayan Living',
+  description: 'Learn how we collect, use, and protect your personal information.',
+};
+
+export const termsMetadata = {
+  title: 'Terms of Service - Himalayan Living',
+  description: 'Read our terms and conditions for using our services and products.',
+};

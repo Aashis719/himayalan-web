@@ -66,7 +66,7 @@ const ProductCard = ({ product }) => {
             className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors"
             aria-label={`View details for ${product.name}`}
           >
-            <Link href='/contact'>Order Now →</Link>
+            <Link href='/products'>View More →</Link>
           </button>
         </div>
       </div>

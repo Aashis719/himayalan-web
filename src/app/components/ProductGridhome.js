@@ -2,7 +2,7 @@
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Filter, ChevronDown } from 'lucide-react';
-import ProductCard from './ProductCard';
+import ProductCardhome from './productcardhome';
 import { productshome as initialProductsData } from '../data/producthome';
 const ProductGridhome = ({ initialProducts = initialProductsData }) => {
   const [activeFilter, setActiveFilter] = useState('all');
@@ -73,7 +73,7 @@ const ProductGridhome = ({ initialProducts = initialProductsData }) => {
         transition={{ duration: 0.3 }}
         className="min-w-[80%] sm:min-w-[60%] md:min-w-0 snap-start"
       >
-        <ProductCard product={product} />
+        <ProductCardhome product={product} />
       </motion.div>
     ))}
   </AnimatePresence>

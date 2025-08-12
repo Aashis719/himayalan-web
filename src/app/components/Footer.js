@@ -9,10 +9,9 @@ const Footer = () => {
       title: 'Shop', 
       links: [
         { label: 'New Arrivals', href: '/products?category=new' },
-        { label: 'Best Sellers', href: '/products?category=best-sellers' },
         { label: 'Textiles', href: '/products?category=textiles' },
         { label: 'Home Decor', href: '/products?category=decor' },
-        { label: 'Accessories', href: '/products?category=accessories' },
+        { label: 'Gifts', href: '/products?category=Gifts' },
       ],
     },
    
@@ -20,7 +19,6 @@ const Footer = () => {
       title: 'Customer Care',
       links: [
         { label: 'Contact Us', href: '/contact' },
-        { label: 'Shipping & Returns', href: '/shipping' },
         { label: 'FAQs', href: '/faqs' },
         { label: 'Privacy Policy', href: '/privacy' },
         { label: 'Terms of Service', href: '/terms' },
