@@ -8,7 +8,7 @@ Himalayan Living is a modern, responsive lifestyle brand website built with Next
 
 
 <br/>
-
+ 
 ## Tech Stack
 
 - Next.js
