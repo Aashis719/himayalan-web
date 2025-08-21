@@ -6,7 +6,7 @@ export const metadata = termsMetadata;
 
 const page = () => {
   return (
-    <div>  
+    <div>   
       <TermsComponent />
     </div>
   )
