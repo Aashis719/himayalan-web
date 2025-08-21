@@ -10,7 +10,7 @@ const inter = Inter({
 //
 const playfair = Playfair_Display({ 
   subsets: ['latin'],
-  variable: '--font-playfair', 
+  variable: '--font-playfair',  
 });
 
 export default function RootLayout({ children }) {
