@@ -1,4 +1,4 @@
-# Himalayan Living – Premium Lifestyle Brand Website
+# Himalayan Living – Premium Lifestyle Brand Website 
 
 Himalayan Living is a modern, responsive lifestyle brand website built with Next.js and Tailwind CSS. It highlights the serene aesthetics of the Himalayas and the craftsmanship of Nepal with a clean, minimal, and accessible UI.
 
@@ -8,7 +8,7 @@ Himalayan Living is a modern, responsive lifestyle brand website built with Next
 
 
 <br/>
-
+ 
 ## Tech Stack
 
 - Next.js
