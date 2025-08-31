@@ -16,7 +16,7 @@ Himalayan Living is a modern, responsive lifestyle brand website built with Next
 - Framer Motion
 - Icons: Heroicons, Lucide React
 
-## Features
+## Features 
 
 - Refined UI/UX with smooth transitions
 - Hero section with clear brand message and CTA
