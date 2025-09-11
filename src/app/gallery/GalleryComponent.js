@@ -8,7 +8,7 @@ export default function LookbookPage() {
   const lookbookImages = [  
     {
       src: '/images/lookbook/image1.webp', 
-      alt: 'Artisan weaving a traditional pattern',
+      alt: 'Artisan weaving a traditional pattern', 
       width: 'col-span-2',
     },
     {
