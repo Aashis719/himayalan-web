@@ -10,7 +10,7 @@ export default function PrivacyComponent() {
         "• Personal information (name, email address, shipping address)",
         "• Payment information (processed securely through our payment providers)",
         "• Device information (IP address, browser type, device type)",
-        "• Usage data (pages visited, time spent on site, interactions)"
+        "• Usage data (pages visited, time spent on site, interactions)" 
       ] 
     },
     {
