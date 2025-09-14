@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 export default function TermsComponent() {
   const sections = [
     {
-      title: "Agreement to Terms",
+      title: "Agreement to Terms", 
       content: [
         "By accessing and using Himalayan Living's website and services, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access our services.",
         "We reserve the right to modify these terms at any time. We will notify users of any material changes via email or website notification."
