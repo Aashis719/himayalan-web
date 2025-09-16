@@ -11,7 +11,7 @@ const ProductGridhome = ({ initialProducts = initialProductsData }) => {
 // Define categories and sort options 
   const categories = [
     { id: 'all', label: 'All Products', icon: 'grid' }, 
-    { id: 'textiles', label: 'Textiles', icon: 'fabric' },
+    { id: 'textiles', label: 'Textiles', icon: 'fabric' }, 
     { id: 'decor', label: 'Home Decor', icon: 'home' },
     { id: 'accessories', label: 'Accessories', icon: 'gem' },
     { id: 'gifts', label: 'Gifts', icon: 'gift' },
