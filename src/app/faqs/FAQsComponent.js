@@ -7,7 +7,7 @@ export default function FAQsComponent() {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
-    { 
+    {  
       category: "Products & Materials",
       questions: [
         {
