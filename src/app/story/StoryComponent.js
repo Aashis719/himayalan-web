@@ -3,7 +3,7 @@ import StorySection from '../components/StorySection';
 import SectionHeading from '../components/SectionHeading';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import { FaLeaf, FaHandshake, FaMountain, FaStar } from 'react-icons/fa';
+import { FaLeaf, FaHandshake, FaMountain, FaStar } from 'react-icons/fa'; 
 
 export default function StoryPage() {
   return (
