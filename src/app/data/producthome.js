@@ -2,7 +2,7 @@ export const productshome = [
  
     { 
       id: 1, 
-      name: "Hand-Woven Shawl",
+      name: "Hand-Woven Shawl", 
       category: "textiles",
       price: 189.99,
       image: "/images/lookbook/image3.jpeg",
