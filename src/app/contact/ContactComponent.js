@@ -3,7 +3,7 @@ import ContactForm from '../components/ContactForm';
 import { MapPin, Phone, Mail, Clock, ArrowRight, Star } from 'lucide-react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-export default function ContactPage() {
+export default function ContactPage() { 
   const contactInfo = [
     {
       icon: <MapPin className="w-6 h-6" />,
